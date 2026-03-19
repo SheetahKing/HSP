@@ -104,3 +104,30 @@ the code for HSP paper
 ## Dataset数据集
 *Cross-KG datasets:* The original cross-KG datasets (FB15K-DB15K/YAGO15K) comes from: [https://github.com/mniepert/mmkb]
 *Bilingual datasets:* The multi-modal version of DBP15K dataset comes from the: [https://github.com/cambridgeltl/eva]
+
+
+## Hardware Configuration硬件环境
+All the experiments in this thesis were conducted based on the Anaconda virtual environment, and the basic hardware environment and major software versions are shown in the list:
+- Anaconda Version: conda 22.9.0
+- Python Version: 3.7.16
+- RTX4090 (Small batch data testing is based on the NVIDIA RTX3060)
+- NVIDIA Driver Version: 531.18
+
+## Conda Configuration环境配置
+In this section, we will give details on how to configure HSP's conda virtual environment and give specific installation instructions, all based on pip 23.0.1 installation, as shown below:
+
+```sh
+pip install transformers==4.15.0
+pip install pytorch==1.8.0 (cu111)
+pip install einops=0.4.0
+pip install torchmetrics==0.7.0
+pip install tntorch==1.0.1
+pip install pytorch-lightning==1.3.5
+pip install spacy==3.5.0
+pip install nltk==3.7.0
+...
+```
+The above gives the main packages included in the environment, and we provide a simple requirement.txt file that you can use to install them with the following statement:
+```sh
+pip install -r requirements.txt
+```

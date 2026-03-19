@@ -13,4 +13,6 @@ the code for HSP paper
 ## 实验结果
 
 
-## 
+## Dataset
+*Cross-KG datasets:* The original cross-KG datasets (FB15K-DB15K/YAGO15K) comes from: [https://github.com/mniepert/mmkb]
+*Bilingual datasets:* The multi-modal version of DBP15K dataset comes from the: [https://github.com/cambridgeltl/eva]

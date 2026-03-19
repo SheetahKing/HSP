@@ -5,7 +5,7 @@ the code for HSP paper
 
 
 ## 模型架构图
-
+![the structure of the HSP model](./model.pdf)
 
 ## 基线模型
 
